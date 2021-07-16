@@ -1,0 +1,141 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    height: 100vh;
+    padding-left: 70px;
+    /* color: hsl(228, 45%, 44%); */
+}
+
+main {
+    position: relative;
+}
+
+
+.logo-container {
+    position: relative;
+    height:100px;
+}
+
+.logo-container__logo {
+    position: absolute;
+    top: 45px;
+
+    width: 100px;
+    /* left: 15px; */
+}
+
+/* .image-section {
+    position: absolute;
+    float: right;
+} */
+
+.image-section__img {
+    width: 450px;
+
+    position: relative;
+    float: right;
+    margin-top: -81px;
+    margin-right: 35px;
+
+    box-shadow: 0 15px 40px rgba(14, 13, 13, 0.4);
+
+}
+
+
+.float-left {
+    position: relative;
+    float: left;
+    width: 351px;
+}
+
+.header__heading-main {
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 300;
+    color: #d16644;
+    /* color: hsl(0, 36%, 70%); */
+    margin-bottom: 25px;
+    letter-spacing: 5px;
+}
+
+.header__heading-sub {
+    display: block;
+    font-weight: 600;
+    color: rgb(29, 27, 27);
+}
+
+.header__description {
+    margin-bottom: 35px;
+}
+
+.header__description-paragraph {
+    color: #d16644;
+    /* color: hsl(0, 36%, 70%); */
+    line-height: 2;
+    font-size: 14px;
+
+}
+
+.form-container {
+    position: relative;
+}
+
+.header__form {
+    width:90%;
+    /* background-color: red; */
+}
+
+.header__form-input {
+    width: 90%;
+    border-radius: 35px;
+    height: 50px;
+    border: 1px solid #d16644;
+    /* border: 1px solid rgb(206, 151, 151); */
+    box-shadow: 1rem 1rem 2rem rgba(14, 13, 13, 0.1);
+    padding: 15px;
+    outline: none;
+}
+
+.header__form-input::placeholder {
+    font-size: 16px;
+    color: #d16644;
+    /* color: hsl(0, 36%, 70%); */
+    
+    padding: 15px 25px 15px 0;
+}
+
+.header__form-button {
+    width: 90px;
+    height: 50px;
+    border-radius: 35px;
+    background-color: #d16644;
+    /* background-color:  hsl(0, 74%, 74%); */
+
+    outline:none;
+    border: none;
+
+    cursor: pointer;
+
+    position: absolute;
+    right: 45px;
+
+    transition: all .15s ease;
+
+}
+
+.header__form-button:hover {
+    background-color: #d16544c7;
+    box-shadow: 1rem 1rem 2rem #d16644;
+}
+
+.header__form-button:active,
+.header__form-button:focus {
+    transform: translateX(1.5px);
+    box-shadow: 1rem 1rem 2rem rgba(14, 13, 13, 0.1);
+}
